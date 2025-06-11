@@ -15,4 +15,3 @@ dist/
 .env.test.local
 .env.production.local
 
-frontend/app/favicon.ico
