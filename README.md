@@ -78,6 +78,10 @@ npm install
 npm run dev
 ```
 
+El servidor escuchará en `http://localhost:3001` y expone el endpoint
+`/api/products` para obtener los productos de ejemplo. Puedes filtrar por
+categoria con `?category=3D` o buscar por nombre usando `?search=texto`.
+
 ### 3. Despliegue en GitHub Pages
 
 1. Asegúrate de que la configuración de Next.js exporta el sitio de forma estática (`output: "export"`).
