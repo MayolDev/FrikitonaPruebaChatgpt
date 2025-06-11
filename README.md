@@ -2,6 +2,8 @@
 
 Este proyecto es una tienda online dedicada a la venta de productos de manualidades, con especial foco en artículos de **impresión 3D** y **diamond painting**. Está construida con una arquitectura moderna, separando el **frontend en Next.js** del **backend en Node.js**.
 
+La estructura básica de ambos entornos ya fue generada y está lista para instalar las dependencias y comenzar a trabajar.
+
 ## 🧩 Características principales
 
 - 🎨 Catálogo de productos organizados por categoría
@@ -34,21 +36,18 @@ Este proyecto es una tienda online dedicada a la venta de productos de manualida
 
 ---
 
-## 🗂️ Estructura del proyecto (propuesta inicial)
+## 🗂️ Estructura del proyecto
+
+El repositorio ya incluye las carpetas base generadas para el frontend y el
+backend. Simplemente instala las dependencias en cada una para comenzar a
+desarrollar.
 
 ```
 /tienda-manualidades/
-├── frontend/           # Aplicación Next.js
-│   ├── pages/
-│   ├── components/
-│   └── styles/
-│
-├── backend/            # API Node.js con Express
-│   ├── routes/
-│   ├── controllers/
-│   ├── models/
-│   └── config/
-│
+├── frontend/   # Proyecto Next.js (create-next-app)
+├── backend/    # API Node.js con Express
+├── .gitignore
+├── LICENSE
 └── README.md
 ```
 
