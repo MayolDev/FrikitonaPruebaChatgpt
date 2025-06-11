@@ -2,7 +2,7 @@
 
 Este proyecto es una tienda online dedicada a la venta de productos de manualidades, con especial foco en artículos de **impresión 3D** y **diamond painting**. Está construida con una arquitectura moderna, separando el **frontend en Next.js** del **backend en Node.js**.
 
-La estructura básica de ambos entornos ya fue generada y está lista para instalar las dependencias y comenzar a trabajar.
+
 
 ## 🧩 Características principales
 
@@ -38,9 +38,7 @@ La estructura básica de ambos entornos ya fue generada y está lista para insta
 
 ## 🗂️ Estructura del proyecto
 
-El repositorio ya incluye las carpetas base generadas para el frontend y el
-backend. Simplemente instala las dependencias en cada una para comenzar a
-desarrollar.
+
 
 ```
 /tienda-manualidades/
@@ -79,6 +77,12 @@ cd backend
 npm install
 npm run dev
 ```
+
+### 3. Despliegue en GitHub Pages
+
+1. Asegúrate de que la configuración de Next.js exporta el sitio de forma estática (`output: "export"`).
+2. Ejecuta `npm run build` dentro de `frontend/` para generar la carpeta `out/`.
+3. Sube el contenido de `frontend/out/` a la rama `gh-pages` o a la carpeta `docs/` de tu repositorio y habilita GitHub Pages en la configuración.
 
 ---
 
