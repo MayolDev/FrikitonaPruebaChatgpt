@@ -1,0 +1,17 @@
+# Node.js dependencies
+node_modules/
+# Logs
+npm-debug.log*
+# Environment variables
+.env
+# Next.js build output
+.next/
+# Other build directories
+out/
+dist/
+# Local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
